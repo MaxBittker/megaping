@@ -19,12 +19,12 @@
                             loop: false,
                             volume: 1,
                             });
-                        var duration = 300;
+                        // var duration = 300;
                         var n = 0
                     // var ping = new Audio("ping.m4a");
                         document.getElementById("button").onclick = function () {
-                        for(var i = 0; i<duration; i+=60)Delay(Math.round(i*Math.random()));
-                          duration += 75;
+                        for(var i = 0; i<100+(60*n); i+=60)Delay(Math.round(i*Math.random()));
+                          // duration += 75;
                         n+=1;
                          document.getElementById('Number').innerHTML = n;
      
