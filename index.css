@@ -1,0 +1,23 @@
+body {
+    background: repeating-linear-gradient( 45deg, #606dbc, #606dbc 10px, #465298 10px, #465298 20px);
+    color: #f0f0f0;
+}
+
+#Number {
+    font-size: 400%;
+}
+
+* {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+}
+
+#button {
+    width: 30%;
+    height: 5em;
+    font-size: 200%;
+    border-radius: 20px;
+    border-width: 10px;
+}
